@@ -15,5 +15,3 @@ def save_to_csv(jobs):
     # 딕셔너리에 저장된 값중 Value만 가지고 와서 row의 값 추가
     # 단, dict.value()의 경우 type이 dict_value 이므로 list로 변환하여 저장해야 함
     writer.writerow(list(job.values()))
-
-  return
